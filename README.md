@@ -19,12 +19,13 @@
 ######dispatcher跟据client请求中对应的id号，将任务分配给不同的server去执行，得到返回结果再发回给client.
 
 ####演示流程:
-#####1.开启remiregistry
+#####1.启动remiregistry注册程序
 ######开启窗口1
 ![image](https://github.com/brookgao/Sample-Distributed-System/raw/master/Images/rmiregistry.png)
 
-#####2.开启rmic接口，开启backend server0和server1
+#####2.运行rmic生成stub和skeleton文件，并开启backend server0和server1
 ######开启窗口2
+![image](https://github.com/brookgao/Sample-Distributed-System/raw/master/Images/rmic.png)
 ![image](https://github.com/brookgao/Sample-Distributed-System/raw/master/Images/server0.png)
 ######开启窗口3
 ![image](https://github.com/brookgao/Sample-Distributed-System/raw/master/Images/server1.png)
